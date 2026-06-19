@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@400;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html.dark {
+    color-scheme: dark;
+  }
+
+  body {
+    @apply bg-surface text-gray-800 font-sans antialiased transition-colors duration-300;
+  }
+
+  .dark body {
+    @apply bg-darkSurface text-gray-100;
+  }
+
+  h1,
+  h2,
+  h3 {
+    @apply font-bold text-primary tracking-tight transition-colors duration-300;
+  }
+
+  .dark h1,
+  .dark h2,
+  .dark h3 {
+    @apply text-green-500;
+  }
+}
