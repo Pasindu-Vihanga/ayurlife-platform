@@ -81,13 +81,13 @@ AyurLife is developed as a solution to overcome these limitations.
 git clone https://github.com/your-username/ayurlife-platform.git
 cd ayurlife-platform
 
-##Backend Setup
+### 2️⃣ Backend Setup
 
 cd server
 npm install
 npm start
 
-##Frontend Setup
+### 3️⃣ Frontend Setup
 
 cd client
 npm install
@@ -95,20 +95,20 @@ npm run dev
 
 ---
 
-##🔐 Environment Variables
+## 🔐 Environment Variables
 
-##Backend (.env)
+## Backend (.env)
 
 MONGO_URI=your_mongodb_connection
 PORT=5000
 
-##Frontend (.env)
+## Frontend (.env)
 
 VITE_API_URL=your_backend_url
 
 ---
 
-##🔮 Future Improvements
+## 🔮 Future Improvements
 
 --Develop a mobile application
 --Add online consultation (video calls)
@@ -117,5 +117,5 @@ VITE_API_URL=your_backend_url
 
 ---
 
-##📄 Note
+## 📄 Note
 This project was developed as part of an academic requirement for the SLIIT IT program
