@@ -77,7 +77,9 @@ AyurLife is developed as a solution to overcome these limitations.
 ## 🚀 How to Run the Project
 
 ### 1️⃣ Clone the Repository
+```bash
 git clone https://github.com/Pasindu-Vihanga/ayurlife-platform.git
+```
 
 ### 2️⃣ Backend Setup
 ```bash
@@ -103,8 +105,10 @@ MONGO_URI=your_mongodb_connection
 PORT=5000
 ```
 
+```bash
 ## Frontend (.env)
 VITE_API_URL=your_backend_url
+```
 
 ---
 
