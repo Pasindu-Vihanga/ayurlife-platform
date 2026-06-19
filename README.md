@@ -87,17 +87,21 @@ npm start
 ```
 
 ### 3️⃣ Frontend Setup
+```bash
 cd client
 npm install
 npm run dev
+```
 
 ---
 
 ## 🔐 Environment Variables
 
 ## Backend (.env)
+```bash
 MONGO_URI=your_mongodb_connection
 PORT=5000
+```
 
 ## Frontend (.env)
 VITE_API_URL=your_backend_url
