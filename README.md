@@ -77,33 +77,45 @@ AyurLife is developed as a solution to overcome these limitations.
 ## 🚀 How to Run the Project
 
 ### 1️⃣ Clone the Repository
-```bash
+
 git clone https://github.com/your-username/ayurlife-platform.git
 cd ayurlife-platform
 
-cd server
-npm install
-npm start
-``
+##Backend Setup
 
 cd server
 npm install
 npm start
-``
+
+##Frontend Setup
+
+cd client
+npm install
+npm run dev
+
+---
+
+##🔐 Environment Variables
+
+##Backend (.env)
 
 MONGO_URI=your_mongodb_connection
 PORT=5000
 
-VITE_API_URL=http://localhost:5000
+##Frontend (.env)
 
+VITE_API_URL=your_backend_url
 
-🔮 Future Improvements
+---
 
-Develop a mobile application
-Add online consultation (video calls)
-Introduce AI-based symptom analysis
-Integrate an online payment system
+##🔮 Future Improvements
 
+--Develop a mobile application
+--Add online consultation (video calls)
+--Introduce AI-based symptom analysis
+--Integrate an online payment system
 
-📄 Note
+---
+
+##📄 Note
 This project was developed as part of an academic requirement for the SLIIT IT program
