@@ -105,8 +105,8 @@ MONGO_URI=your_mongodb_connection
 PORT=5000
 ```
 
-```bash
 ## Frontend (.env)
+```bash
 VITE_API_URL=your_backend_url
 ```
 
