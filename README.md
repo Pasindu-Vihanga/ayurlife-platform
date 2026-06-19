@@ -77,14 +77,14 @@ AyurLife is developed as a solution to overcome these limitations.
 ## 🚀 How to Run the Project
 
 ### 1️⃣ Clone the Repository
-```bash
 git clone https://github.com/Pasindu-Vihanga/ayurlife-platform.git
-``
 
 ### 2️⃣ Backend Setup
+```bash
 cd server
 npm install
 npm start
+```
 
 ### 3️⃣ Frontend Setup
 cd client
